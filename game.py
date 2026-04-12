@@ -51,14 +51,6 @@ def test_live(attacked):
 
 
 
-# def player_attack(player, monster):
-#     roll = roll_dice(6)
-#     if player.profession == "fighter":
-#         roll += 2
-#     roll += monster.power
-#     monster.hp -= roll
-#     if test_live(monster):
-#         return False
 
 def battle(player: player.Player, monster):
     roll_player = roll_dice(6)

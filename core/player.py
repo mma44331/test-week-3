@@ -3,10 +3,8 @@ from random import randint
 
 import game
 
-
-
 class Player:
-    def __init__(self,name,):
+    def __init__(self,name):
         self.name = name
         self.hp = 50
         self.speed = randint(5,10)
